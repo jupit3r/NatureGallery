@@ -1,0 +1,168 @@
+/*************************************ELEMENT CSS**************************************************/
+
+			body {
+				background-size: cover;
+				background: url("../../images/background.png");
+				text-align: center;
+			}
+
+			h1, h2, h3 {
+				font-size: 48px;
+				font-family: avenir;
+			}
+
+/*************************************HEADER**************************************************/
+
+			#quote {
+				background-color: rgba(125, 38, 205, .5);
+				border-radius: 7px;
+				margin: 10px;
+				padding-bottom: 20px;
+				border: 7px solid rgba(0, 0, 0, .3);
+				width: auto;
+			}
+
+			header {
+				font-size: 45px;
+				font-family: avenir;
+				padding: 5px;
+				margin: 5px;
+				text-align: center
+			}
+
+/*************************************HOVER ANIMATION**************************************************/
+
+			.thumb, .thumb2, .thumb3 {
+				border-radius: 7px;
+			}
+
+			@-webkit-keyframes hover {
+				0% {opacity: .2;}
+				100% {opacity: 1;}
+			}
+
+			.thumb:hover {
+				-webkit-animation: hover 2s ease;
+			}
+
+			.thumb2:hover {
+				-webkit-animation: hover 2s ease;
+			}
+
+			.thumb3:hover {
+				-webkit-animation: hover 2s ease;
+			}
+
+/*************************************THUMB NAIL IMAGES************************************************/
+
+			.thumbs {
+				background-size: cover;
+				background-color: rgba(54, 100, 139, .5);
+				border: 7px solid rgba(0, 0, 0, .3);
+				border-radius: 7px;
+				width: auto;
+				margin: 15px;
+			}
+
+			.thumbs2 {
+				background-size: cover;
+				background-color: rgba(84, 139, 84, .5);
+				border: 7px solid rgba(0, 0, 0, .3);
+				border-radius: 7px;
+				width: auto;
+				margin: 15px;
+			}
+
+			.thumbs3 {
+				background-size: cover;
+				background-color: rgba(135, 206, 250, .5);
+				border: 7px solid rgba(0, 0, 0, .3);
+				border-radius: 7px;
+				width: auto;
+				margin: 15px;
+			}
+
+/*****************************************SEA SECTION**************************************************/
+
+			#sea {
+				background-color: rgba(131, 111, 255, .5);
+				border-radius: 7px;
+				margin: 10px;
+				padding-bottom: 20px;
+				border: 7px solid rgba(0, 0, 0, .3);
+				width: auto;
+			}
+
+/****************************************LAND SECTION**************************************************/
+
+			#land {
+				background-color: rgba(202, 255, 112, .5);
+				border-radius: 7px;
+				margin: 10px;
+				padding-bottom: 20px;
+				border: 7px solid rgba(0, 0, 0, .3);
+				width: auto;
+			}
+
+/*****************************************SKY SECTION**************************************************/
+
+			#sky {
+				background-color: rgba(198, 226, 255, .5);
+				border-radius: 7px;
+				margin: 10px;
+				padding-bottom: 20px;
+				border: 7px solid rgba(0, 0, 0, .3);
+				width: auto;
+			}
+
+/*************************************ROLLOVER FUNCTION************************************************/
+
+			.rollover {
+				border: 6px solid red;
+				border-radius: 7px;
+			}
+
+/*************************************CLICKED FUNCTION************************************************/
+
+			.clicked {
+				border: 6px solid rgb(125, 38, 205);
+				border-radius: 7px;
+				opacity: .2;
+			}
+
+/*************************************SHADOW ANIMATION*************************************************/
+
+			#mainImage.shadow {
+  				-webkit-box-shadow: 2px 3px 5px 6px #878787;
+  				box-shadow: 2px 3px 5px 4px #878787;
+			}
+
+			#mainImage2.shadow {
+  				-webkit-box-shadow: 2px 3px 5px 6px #878787;
+  				box-shadow: 2px 3px 5px 4px #878787;
+			}
+
+			#mainImage3.shadow {
+  				-webkit-box-shadow: 2px 3px 5px 6px #878787;
+  				box-shadow: 2px 3px 5px 4px #878787;
+			}
+
+/*************************************WHALE/LEAF/CLOUD ANIMATION***************************************/
+
+			#whale {
+				z-index: -1;
+			}
+
+			#leaf {
+				z-index: -1;
+			}
+
+			#cloud {
+				z-index: -1;
+			}
+
+
+
+
+
+/*     lvw/.     */
